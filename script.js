@@ -385,10 +385,37 @@ margin-top: 1px;
   display: none !important;
 }
 
+.mod__icon--MR::after {
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  background-color: transparent !important;
+  background-image: url('https://raw.githubusercontent.com/Hkefp/osu-userscript/refs/heads/main/mods/selection-mod-mirror%402x.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.mod__icon--MR::before {
+  display: none !important;
+}
+
+.mod__icon--FI::after {
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  background-color: transparent !important;
+  background-image: url('https://raw.githubusercontent.com/Hkefp/osu-userscript/refs/heads/main/mods/selection-mod-fadein%402x.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.mod__icon--MR::before {
+  display: none !important;
+}
+
   .mod--type-System {
     display:none
   }
-
 
 
 
